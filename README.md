@@ -12,11 +12,6 @@ CCRPO is a safe multi-agent reinforcement learning framework for cooperative on-
 - **Causal contribution and responsibility attribution.** Combine counterfactual behavioral influence with team utility to assess cooperative contributions, and use graph-conditioned diffusion and counterfactual tail risks to identify the sources of avoidable risk.
 - **Responsibility-guided preventive optimization.** Preserve a reserved safety margin, impose agent-specific risk-reduction requirements, and verify candidate policies within a KL trust region before accepting updates.
 
-## Preventive Safety Optimization
-
-![Preventive safety optimization](assets/preventive-optimization.png)
-
-The nominal cooperative policy is projected onto the safety-feasible region and refined according to causal responsibility before joint-policy verification.
 
 ## Selected Results
 
